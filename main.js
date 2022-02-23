@@ -15,6 +15,6 @@ function hazej(){
     if (cislo > 0 && cislo < 7){
         kostka.src = 'obrazky/' + cislo + ".png"
     }   else {
-        console.log("Chyba!")
+        alert("Chyba!")
     }
 }
